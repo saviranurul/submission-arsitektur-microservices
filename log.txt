@@ -1,0 +1,258 @@
+submission-arsitektur-microservices-item-app-1  | 
+submission-arsitektur-microservices-item-app-1  | > docker-software-delivery@1.0.0 start /app
+submission-arsitektur-microservices-item-app-1  | > node ./bin/www
+submission-arsitektur-microservices-item-app-1  | 
+submission-arsitektur-microservices-item-app-1  | NODE_ENV: production
+submission-arsitektur-microservices-item-app-1  | Connected to database
+submission-arsitektur-microservices-item-app-1  | 
+submission-arsitektur-microservices-item-app-1  | > docker-software-delivery@1.0.0 start /app
+submission-arsitektur-microservices-item-app-1  | > node ./bin/www
+submission-arsitektur-microservices-item-app-1  | 
+submission-arsitektur-microservices-item-app-1  | NODE_ENV: production
+submission-arsitektur-microservices-item-app-1  | Connected to database
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:07.154+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=cd3e8f6c50ad
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:07.154+0000 I CONTROL  [initandlisten] db version v3.6.23
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:07.154+0000 I CONTROL  [initandlisten] git version: d352e6a4764659e0d0350ce77279de3c1f243e5c
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:07.154+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:07.154+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:07.154+0000 I CONTROL  [initandlisten] modules: none
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:07.154+0000 I CONTROL  [initandlisten] build environment:
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:07.154+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:07.154+0000 I CONTROL  [initandlisten]     distarch: x86_64
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:07.154+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:07.154+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:07.155+0000 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:07.155+0000 I STORAGE  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:07.155+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:07.155+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:07.155+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=2616M,cache_overflow=(file_max=0M),session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:08.709+0000 I STORAGE  [initandlisten] WiredTiger message [1671761408:709203][1:0x7f12ecaf3a40], txn-recover: Main recovery loop: starting at 1/22400
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:08.829+0000 I STORAGE  [initandlisten] WiredTiger message [1671761408:829120][1:0x7f12ecaf3a40], txn-recover: Recovering log 1 through 2
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:09.097+0000 I STORAGE  [initandlisten] WiredTiger message [1671761409:97310][1:0x7f12ecaf3a40], txn-recover: Recovering log 2 through 2
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:09.165+0000 I STORAGE  [initandlisten] WiredTiger message [1671761409:165809][1:0x7f12ecaf3a40], txn-recover: Set global recovery timestamp: 0
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:11.193+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:11.193+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:11.193+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:11.194+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:11.194+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:11.194+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:11.194+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:11.194+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:11.207+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:11.209+0000 I NETWORK  [initandlisten] listening via socket bound to 0.0.0.0
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:11.209+0000 I NETWORK  [initandlisten] listening via socket bound to /tmp/mongodb-27017.sock
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:11.209+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:12.826+0000 I NETWORK  [listener] connection accepted from 172.19.0.3:34550 #1 (1 connection now open)
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:10:12.834+0000 I NETWORK  [conn1] received client metadata from 172.19.0.3:34550 conn1: { driver: { name: "nodejs", version: "2.2.36" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "5.10.16.3-microsoft-standard-WSL2" }, platform: "Node.js v14.21.2, LE, mongodb-core: 2.1.20" }
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:14:33.945+0000 I NETWORK  [conn1] end connection 172.19.0.3:34550 (0 connections now open)
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:15:17.512+0000 I NETWORK  [listener] connection accepted from 172.19.0.3:34680 #2 (1 connection now open)
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:15:17.522+0000 I NETWORK  [conn2] received client metadata from 172.19.0.3:34680 conn2: { driver: { name: "nodejs", version: "2.2.36" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "5.10.16.3-microsoft-standard-WSL2" }, platform: "Node.js v14.21.2, LE, mongodb-core: 2.1.20" }
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:15:45.083+0000 I NETWORK  [conn2] end connection 172.19.0.3:34680 (0 connections now open)
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:15:46.615+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:15:46.615+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:15:46.615+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:15:46.616+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:15:46.621+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:15:46.987+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:15:46.988+0000 I CONTROL  [signalProcessingThread] now exiting
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:15:46.988+0000 I CONTROL  [signalProcessingThread] shutting down with code:0
+submission-arsitektur-microservices-item-app-1  | 
+submission-arsitektur-microservices-item-app-1  | > docker-software-delivery@1.0.0 start /app
+submission-arsitektur-microservices-item-app-1  | > node ./bin/www
+submission-arsitektur-microservices-item-app-1  | 
+submission-arsitektur-microservices-item-app-1  | NODE_ENV: production
+submission-arsitektur-microservices-item-app-1  | Connected to database
+submission-arsitektur-microservices-item-app-1  | 
+submission-arsitektur-microservices-item-app-1  | > docker-software-delivery@1.0.0 start /app
+submission-arsitektur-microservices-item-app-1  | > node ./bin/www
+submission-arsitektur-microservices-item-app-1  | 
+submission-arsitektur-microservices-item-app-1  | NODE_ENV: production
+submission-arsitektur-microservices-item-app-1  | Connected to database
+submission-arsitektur-microservices-item-app-1  | 
+submission-arsitektur-microservices-item-app-1  | > docker-software-delivery@1.0.0 start /app
+submission-arsitektur-microservices-item-app-1  | > node ./bin/www
+submission-arsitektur-microservices-item-app-1  | 
+submission-arsitektur-microservices-item-app-1  | NODE_ENV: production
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=d6ad758e2a10
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten] db version v3.6.23
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten] git version: d352e6a4764659e0d0350ce77279de3c1f243e5c
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten] modules: none
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten] build environment:
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten]     distarch: x86_64
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 W -        [initandlisten] Detected unclean shutdown - /data/db/mongod.lock is not empty.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.871+0000 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.871+0000 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.871+0000 I STORAGE  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.871+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.871+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.871+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=2616M,cache_overflow=(file_max=0M),session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:43.296+0000 I STORAGE  [initandlisten] WiredTiger message [1671761863:296085][1:0x7efd8b810a40], txn-recover: Main recovery loop: starting at 3/256
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:43.298+0000 I STORAGE  [initandlisten] WiredTiger message [1671761863:298396][1:0x7efd8b810a40], txn-recover: Recovering log 3 through 4
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:43.572+0000 I STORAGE  [initandlisten] WiredTiger message [1671761863:571987][1:0x7efd8b810a40], file:index-3-2567890226692898189.wt, txn-recover: Recovering log 4 through 4
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:43.648+0000 I STORAGE  [initandlisten] WiredTiger message [1671761863:648528][1:0x7efd8b810a40], file:index-3-2567890226692898189.wt, txn-recover: Set global recovery timestamp: 0
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.729+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.729+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.729+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.729+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.729+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.729+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+submission-arsitektur-microservices-item-app-1  | Connected to database
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.729+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.729+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.738+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.739+0000 I NETWORK  [initandlisten] listening via socket bound to 0.0.0.0
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.740+0000 I NETWORK  [initandlisten] listening via socket bound to /tmp/mongodb-27017.sock
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.740+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:45.504+0000 I NETWORK  [listener] connection accepted from 172.20.0.3:46944 #1 (1 connection now open)
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:45.526+0000 I NETWORK  [conn1] received client metadata from 172.20.0.3:46944 conn1: { driver: { name: "nodejs", version: "2.2.36" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "5.10.16.3-microsoft-standard-WSL2" }, platform: "Node.js v14.21.2, LE, mongodb-core: 2.1.20" }
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:19:21.166+0000 I NETWORK  [conn1] end connection 172.20.0.3:46944 (0 connections now open)
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:36.072+0000 I NETWORK  [listener] connection accepted from 172.20.0.3:46946 #2 (1 connection now open)
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:36.096+0000 I NETWORK  [conn2] received client metadata from 172.20.0.3:46946 conn2: { driver: { name: "nodejs", version: "2.2.36" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "5.10.16.3-microsoft-standard-WSL2" }, platform: "Node.js v14.21.2, LE, mongodb-core: 2.1.20" }
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:51.786+0000 I NETWORK  [conn2] end connection 172.20.0.3:46946 (0 connections now open)
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:53.518+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:53.519+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:53.519+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:53.519+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:53.526+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:53.847+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:53.848+0000 I CONTROL  [signalProcessingThread] now exiting
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:53.848+0000 I CONTROL  [signalProcessingThread] shutting down with code:0
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=d6ad758e2a10
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten] db version v3.6.23
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten] git version: d352e6a4764659e0d0350ce77279de3c1f243e5c
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten] modules: none
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten] build environment:
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten]     distarch: x86_64
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.768+0000 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.768+0000 I STORAGE  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.768+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.768+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.768+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=2616M,cache_overflow=(file_max=0M),session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:16.180+0000 I STORAGE  [initandlisten] WiredTiger message [1671762076:180356][1:0x7f43993caa40], txn-recover: Main recovery loop: starting at 4/6144
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:16.323+0000 I STORAGE  [initandlisten] WiredTiger message [1671762076:323449][1:0x7f43993caa40], txn-recover: Recovering log 4 through 5
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:16.524+0000 I STORAGE  [initandlisten] WiredTiger message [1671762076:524108][1:0x7f43993caa40], txn-recover: Recovering log 5 through 5
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:16.596+0000 I STORAGE  [initandlisten] WiredTiger message [1671762076:596205][1:0x7f43993caa40], txn-recover: Set global recovery timestamp: 0
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.359+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.359+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.359+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.359+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.359+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.359+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.359+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.360+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.369+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.370+0000 I NETWORK  [initandlisten] listening via socket bound to 0.0.0.0
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.371+0000 I NETWORK  [initandlisten] listening via socket bound to /tmp/mongodb-27017.sock
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.371+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:18.800+0000 I NETWORK  [listener] connection accepted from 172.20.0.3:46948 #1 (1 connection now open)
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:18.818+0000 I NETWORK  [conn1] received client metadata from 172.20.0.3:46948 conn1: { driver: { name: "nodejs", version: "2.2.36" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "5.10.16.3-microsoft-standard-WSL2" }, platform: "Node.js v14.21.2, LE, mongodb-core: 2.1.20" }
+submission-arsitektur-microservices-item-app-1  | 
+submission-arsitektur-microservices-item-app-1  | > docker-software-delivery@1.0.0 start /app
+submission-arsitektur-microservices-item-app-1  | > node ./bin/www
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=d6ad758e2a10
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten] db version v3.6.23
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten] git version: d352e6a4764659e0d0350ce77279de3c1f243e5c
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten] modules: none
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten] build environment:
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten]     distarch: x86_64
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.870+0000 W -        [initandlisten] Detected unclean shutdown - /data/db/mongod.lock is not empty.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.871+0000 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.871+0000 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.871+0000 I STORAGE  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.871+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.871+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:41.871+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=2616M,cache_overflow=(file_max=0M),session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:43.296+0000 I STORAGE  [initandlisten] WiredTiger message [1671761863:296085][1:0x7efd8b810a40], txn-recover: Main recovery loop: starting at 3/256
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:43.298+0000 I STORAGE  [initandlisten] WiredTiger message [1671761863:298396][1:0x7efd8b810a40], txn-recover: Recovering log 3 through 4
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:43.572+0000 I STORAGE  [initandlisten] WiredTiger message [1671761863:571987][1:0x7efd8b810a40], file:index-3-2567890226692898189.wt, txn-recover: Recovering log 4 through 4
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:43.648+0000 I STORAGE  [initandlisten] WiredTiger message [1671761863:648528][1:0x7efd8b810a40], file:index-3-2567890226692898189.wt, txn-recover: Set global recovery timestamp: 0
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.729+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.729+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.729+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.729+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.729+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.729+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.729+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.729+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.738+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.739+0000 I NETWORK  [initandlisten] listening via socket bound to 0.0.0.0
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.740+0000 I NETWORK  [initandlisten] listening via socket bound to /tmp/mongodb-27017.sock
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:44.740+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:45.504+0000 I NETWORK  [listener] connection accepted from 172.20.0.3:46944 #1 (1 connection now open)
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:17:45.526+0000 I NETWORK  [conn1] received client metadata from 172.20.0.3:46944 conn1: { driver: { name: "nodejs", version: "2.2.36" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "5.10.16.3-microsoft-standard-WSL2" }, platform: "Node.js v14.21.2, LE, mongodb-core: 2.1.20" }
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:19:21.166+0000 I NETWORK  [conn1] end connection 172.20.0.3:46944 (0 connections now open)
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:36.072+0000 I NETWORK  [listener] connection accepted from 172.20.0.3:46946 #2 (1 connection now open)
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:36.096+0000 I NETWORK  [conn2] received client metadata from 172.20.0.3:46946 conn2: { driver: { name: "nodejs", version: "2.2.36" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "5.10.16.3-microsoft-standard-WSL2" }, platform: "Node.js v14.21.2, LE, mongodb-core: 2.1.20" }
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:51.786+0000 I NETWORK  [conn2] end connection 172.20.0.3:46946 (0 connections now open)
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:53.518+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:53.519+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:53.519+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:53.519+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:53.526+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:53.847+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+submission-arsitektur-microservices-item-app-1  | 
+submission-arsitektur-microservices-item-app-1  | NODE_ENV: production
+submission-arsitektur-microservices-item-app-1  | Connected to database
+submission-arsitektur-microservices-item-app-1  | 
+submission-arsitektur-microservices-item-app-1  | > docker-software-delivery@1.0.0 start /app
+submission-arsitektur-microservices-item-app-1  | > node ./bin/www
+submission-arsitektur-microservices-item-app-1  | 
+submission-arsitektur-microservices-item-app-1  | NODE_ENV: production
+submission-arsitektur-microservices-item-app-1  | Connected to database
+submission-arsitektur-microservices-item-app-1  | 
+submission-arsitektur-microservices-item-app-1  | > docker-software-delivery@1.0.0 start /app
+submission-arsitektur-microservices-item-app-1  | > node ./bin/www
+submission-arsitektur-microservices-item-app-1  | 
+submission-arsitektur-microservices-item-app-1  | NODE_ENV: production
+submission-arsitektur-microservices-item-app-1  | Connected to database
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:53.848+0000 I CONTROL  [signalProcessingThread] now exiting
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:20:53.848+0000 I CONTROL  [signalProcessingThread] shutting down with code:0
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=d6ad758e2a10
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten] db version v3.6.23
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten] git version: d352e6a4764659e0d0350ce77279de3c1f243e5c
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten] modules: none
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten] build environment:
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten]     distarch: x86_64
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.767+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.768+0000 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.768+0000 I STORAGE  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.768+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.768+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:14.768+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=2616M,cache_overflow=(file_max=0M),session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:16.180+0000 I STORAGE  [initandlisten] WiredTiger message [1671762076:180356][1:0x7f43993caa40], txn-recover: Main recovery loop: starting at 4/6144
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:16.323+0000 I STORAGE  [initandlisten] WiredTiger message [1671762076:323449][1:0x7f43993caa40], txn-recover: Recovering log 4 through 5
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:16.524+0000 I STORAGE  [initandlisten] WiredTiger message [1671762076:524108][1:0x7f43993caa40], txn-recover: Recovering log 5 through 5
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:16.596+0000 I STORAGE  [initandlisten] WiredTiger message [1671762076:596205][1:0x7f43993caa40], txn-recover: Set global recovery timestamp: 0
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.359+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.359+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.359+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.359+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.359+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.359+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.359+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.360+0000 I CONTROL  [initandlisten] 
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.369+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.370+0000 I NETWORK  [initandlisten] listening via socket bound to 0.0.0.0
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.371+0000 I NETWORK  [initandlisten] listening via socket bound to /tmp/mongodb-27017.sock
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:17.371+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:18.800+0000 I NETWORK  [listener] connection accepted from 172.20.0.3:46948 #1 (1 connection now open)
+submission-arsitektur-microservices-item-db-1   | 2022-12-23T02:21:18.818+0000 I NETWORK  [conn1] received client metadata from 172.20.0.3:46948 conn1: { driver: { name: "nodejs", version: "2.2.36" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "5.10.16.3-microsoft-standard-WSL2" }, platform: "Node.js v14.21.2, LE, mongodb-core: 2.1.20" }

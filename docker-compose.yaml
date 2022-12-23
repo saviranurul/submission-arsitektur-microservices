@@ -1,0 +1,28 @@
+# Menggunakan docker compose versi 3
+version: "3.8"
+services:
+  # Service item-app
+  item-app:
+    # Menggunakan image dari github package
+    image: ghcr.io/saviranurul/docker-microservices:v1
+    # Container akan selalu restart ketika terhenti
+    restart: always
+    # Mapping port, agar aplikasi bisa dibuka pada port 80
+    ports:
+      - 80:80
+    # Menunggu service item-db selesai dibuat
+    depends_on:
+      - item-db
+  # Service item-db
+  item-db:
+    # Menggunakan default image mongodb
+    image: mongo:3
+    # Container akan selalu restart ketika terhenti
+    restart: always
+    # Menggunakan named volume app-db dan melakukan mapping ke /data/db pada container
+    volumes:
+      - app-db:/data/db
+# Deklarasi volumes
+volumes:
+  # Membuat named volume
+  app-db:
