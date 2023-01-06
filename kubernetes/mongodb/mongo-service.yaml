@@ -1,0 +1,22 @@
+# API version yang digunakan untuk object service
+apiVersion: v1
+# Jenis object yang akan dibuat berupa service
+kind: Service
+# Metadata untuk memberikan nama dan label pada object service
+metadata:
+  # Memberikan nama object mongo
+  name: mongo
+  # Memberikan label object app: mongo
+  labels:
+    app: mongo
+# Memberikan spesifikasi untuk object service
+spec:
+  # Menggunakan selector untuk mengidentifikasi pod yang memiliki app: mongo && tier: backend (harus sama seperti statefulset)
+  selector:
+    app: mongo
+    tier: backend
+  # Mengekspos service pada IP internal di cluster, sehingga service hanya dapat dijangkau dari dalam cluster
+  clusterIP: None
+  # Menentukan port yang akan digunakan pada object service yaitu 27017 (port default mongo db)
+  ports:
+    - port: 27017

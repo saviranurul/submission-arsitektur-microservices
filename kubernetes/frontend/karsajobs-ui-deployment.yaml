@@ -1,0 +1,35 @@
+# API version yang digunakan untuk object deployment
+apiVersion: apps/v1
+# Jenis object yang akan dibuat berupa deployment
+kind: Deployment
+# Metadata untuk memberikan nama dan label pada object deployment
+metadata:
+  # Memberikan nama object karsajobs-ui
+  name: karsajobs-ui 
+  # Memberikan label object app: karsajobs-ui
+  labels:
+    app: karsajobs-ui
+# Memberikan spesifikasi untuk object deployment
+spec:
+  # Menentukan bahwa replica pod berjumlah 3
+  replicas: 3
+  # Menggunakan selector untuk mengidentifikasi pod yang memiliki label app: karsajobs-ui (harus sama seperti service)
+  selector:
+    matchLabels:
+      app: karsajobs-ui
+  # Memberikan pod template untuk memberikan metadata dan spesifikasi container
+  template:
+    # Memberikan metadata berupa label app: karsajobs-ui (Label untuk frontend application)
+    metadata:
+      labels:
+        app: karsajobs-ui 
+    # Memberikan spesifikasi container pada pod
+    spec:
+      # Menjalankan container dengan nama karsajobs-ui
+      containers:
+        - name: karsajobs-ui
+          # Mengambil image ghcr.io/saviranurul/karsajobs:latest dari github packages
+          image: ghcr.io/saviranurul/karsajobs-ui:latest 
+          # Menentukan container berjalan pada port 8000
+          ports:
+            - containerPort: 8000

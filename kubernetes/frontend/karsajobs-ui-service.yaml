@@ -1,0 +1,26 @@
+# API version yang digunakan untuk object service
+apiVersion: v1
+# Jenis object yang akan dibuat berupa service
+kind: Service
+# Metadata untuk memberikan nama dan label pada object service
+metadata:
+  # Memberikan nama object karsajobs-ui
+  name: karsajobs-ui
+  # Memberikan label object app: karsajobs-ui
+  labels:
+    app: karsajobs-ui
+# Memberikan spesifikasi untuk object service
+spec:
+  # Mengalokasikan port untuk service pada setiap node di cluster
+  # Service dapat diakses dari luar cluster menggunakan format <NodeIP>:<NodePort>
+  type: NodePort 
+  # Menggunakan selector untuk mengidentifikasi pod yang memiliki label app: karsajobs-ui (harus sama seperti deployment)
+  selector:
+    app: karsajobs-ui
+  # Menentukan port yang akan digunakan pada object service
+  ports:
+      # Menentukan nilai `targetPort` yang sama dengan nilai daripada `port`
+    - port: 8000
+      targetPort: 8000
+      # Ini bersifat opsional, dimana secara default kubernetes control plane akan mengalokasikan port pada rentang 30000 - 32767
+      nodePort: 30016

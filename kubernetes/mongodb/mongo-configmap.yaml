@@ -1,0 +1,13 @@
+# API version yang digunakan untuk object config map
+apiVersion: v1
+# Jenis object yang akan dibuat berupa config map
+kind: ConfigMap
+# Metadata untuk memberikan nama dan label pada object config map
+metadata:
+  # Memberikan nama object mongo-config
+  name: mongo-config
+# Mendefinisikan data konfigurasi pada mongo db berupa storage/volume file path
+data:
+  mongo.conf: |
+    storage:
+      dbPath: /data/db

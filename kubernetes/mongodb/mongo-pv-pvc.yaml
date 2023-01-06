@@ -1,0 +1,49 @@
+# API version yang digunakan untuk object persistent volume 
+apiVersion: v1
+# Jenis object yang akan dibuat berupa persistent volume
+kind: PersistentVolume
+# Metadata untuk memberikan nama dan label pada object persistent volume
+metadata:
+  # Memberikan nama object mongo-pv
+  name: mongo-pv
+  # Memberikan label object type: local
+  labels:
+    type: local
+# Memberikan spesifikasi untuk object persistent volume
+spec:
+  # Memberikan nama stoage class berupa manual
+  storageClassName: manual
+  # Menentukan kapasitas penyimpanan sebesar 1 GB
+  capacity:
+    storage: 1Gi
+  # Memberikan access mode dengan read-write once
+  accessModes:
+    - ReadWriteOnce
+  # Menentukan host path pada /data/db
+  hostPath:
+    path: "/data/db"
+
+---
+
+# API version yang digunakan untuk object persistent volume claim
+apiVersion: v1
+# Jenis object yang akan dibuat berupa persistent volume claim
+kind: PersistentVolumeClaim
+# Metadata untuk memberikan nama dan label pada object persistent volume claim
+metadata:
+  # Memberikan nama object mongo-pv-claim
+  name: mongo-pv-claim
+  # Memberikan label object app: mongo
+  labels:
+    app: mongo
+# Memberikan spesifikasi untuk object persistent volume claim
+spec:
+  # Memberikan nama stoage class berupa manual
+  storageClassName: manual
+  # Memberikan access mode dengan read-write once
+  accessModes:
+    - ReadWriteOnce
+  # Menentukan permintaan penyimpanan sebesar 1 GB
+  resources:
+    requests:
+      storage: 1Gi
