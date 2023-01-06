@@ -1,0 +1,30 @@
+# Menggunakan Circle CI versi 2.1
+version: "2.1"
+# Menggunakan orbs package berupa docker 
+orbs:
+  docker: circleci/docker@2.1.4
+# Mendeklarasikan jobs yang akan dijalankan
+jobs:
+  # Membuat jobs berupa build
+  build:
+    # Menggunakan executor docker machine
+    executor: docker/machine
+    # Mendaklarasikan tahapan CI yang akan dilakukan
+    steps:
+      # Melakukan checkout branch karsajobs pada repository
+      - checkout
+      #  Menginstal hadolint dan menjalankannya terhadap berkas dockerfile
+      - docker/dockerlint:
+          dockerfile: Dockerfile
+          treat-warnings-as-errors: true
+      # Menjalankan unit test untuk backend
+      - run:
+          command: go test -v -short --count=1 $(go list ./...)
+      # Menjalankan perintah untuk memberikan akses eksekusi shell scipt sekaligus melakukan build dan push image
+      - run:
+          command: chmod +x build_push_image_karsajobs.sh && ./build_push_image_karsajobs.sh
+# Mendeklarasikan workflow untuk lint dan build dockerfile
+workflows:
+  lint-and-build-dockerfile:
+    jobs:
+      - build
