@@ -1,0 +1,23 @@
+Github:
+https://github.com/saviranurul/submission-arsitektur-microservices
+
+
+Github Packages Karsajobs:
+https://github.com/users/saviranurul/packages/container/package/karsajobs
+
+
+Github Packages Karsajobs-UI:
+https://github.com/users/saviranurul/packages/container/package/karsajobs-ui
+
+
+Circle CI Karsajobs:
+https://app.circleci.com/pipelines/github/saviranurul/submission-arsitektur-microservices?branch=karsajobs
+
+
+Circle CI Karsajobs-UI:
+https://app.circleci.com/pipelines/github/saviranurul/submission-arsitektur-microservices?branch=karsajobs-ui
+
+
+
+
+
